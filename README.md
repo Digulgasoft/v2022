@@ -3,13 +3,12 @@
 apt-get update -y; apt-get upgrade -y;
 ```
 
-# SINCRONIZAR NA VPS
+# SINCRONIZAR NA VPS & PAINEL
 ```
 apt install dos2unix -y; wget https://raw.githubusercontent.com/wellzin-blip/v2022/master/gestorssh/sincpainel && chmod +x sincpainel && dos2unix sincpainel && ./sincpainel
 ```
 
 # ATUALIZAÇÃO PAINELWEB GESTOR-SSH, TBM FUNCIONA EM OUTRAS VERSÕES DE PAINEL V20 E ETC... EM DEBIAN 8 OU UBUNTU 14!
-# ATUALIZAÇÃO 28/04/2022.
 ```
 apt install dos2unix -y; wget https://raw.githubusercontent.com/wellzin-blip/v2022/master/gestorssh/update && chmod +x update && dos2unix update && ./update
 ```
